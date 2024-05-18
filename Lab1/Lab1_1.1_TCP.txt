@@ -1,0 +1,781 @@
+No.     Time           Source                Destination           Protocol Length Info
+    588 72.182687      192.168.40.83         99.236.34.223         TCP      66     30266 → 50008 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 588: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30266, Dst Port: 50008, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    593 72.217366      99.236.34.223         192.168.40.83         TCP      66     50008 → 30266 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1460 SACK_PERM WS=128
+
+Frame 593: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30266, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    594 72.217551      192.168.40.83         99.236.34.223         TCP      54     30266 → 50008 [ACK] Seq=1 Ack=1 Win=131328 Len=0
+
+Frame 594: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30266, Dst Port: 50008, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    595 72.219508      192.168.40.83         99.236.34.223         HTTP     502    GET /photos/ HTTP/1.1 
+
+Frame 595: 502 bytes on wire (4016 bits), 502 bytes captured (4016 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30266, Dst Port: 50008, Seq: 1, Ack: 1, Len: 448
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    597 72.328546      99.236.34.223         192.168.40.83         TCP      60     50008 → 30266 [ACK] Seq=1 Ack=449 Win=64128 Len=0
+
+Frame 597: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30266, Seq: 1, Ack: 449, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    598 72.336765      99.236.34.223         192.168.40.83         HTTP     969    HTTP/1.1 200 OK  (text/html)
+
+Frame 598: 969 bytes on wire (7752 bits), 969 bytes captured (7752 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30266, Seq: 1, Ack: 449, Len: 915
+Hypertext Transfer Protocol
+Line-based text data: text/html (35 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    599 72.373507      192.168.40.83         99.236.34.223         HTTP     461    GET /icons/blank.gif HTTP/1.1 
+
+Frame 599: 461 bytes on wire (3688 bits), 461 bytes captured (3688 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30266, Dst Port: 50008, Seq: 449, Ack: 916, Len: 407
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    600 72.374237      192.168.40.83         99.236.34.223         TCP      66     30267 → 50008 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 600: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30267, Dst Port: 50008, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    601 72.375928      192.168.40.83         99.236.34.223         TCP      66     30268 → 50008 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 601: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30268, Dst Port: 50008, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    602 72.411723      99.236.34.223         192.168.40.83         HTTP     485    HTTP/1.1 200 OK  (GIF89a)
+
+Frame 602: 485 bytes on wire (3880 bits), 485 bytes captured (3880 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30266, Seq: 916, Ack: 856, Len: 431
+Hypertext Transfer Protocol
+Compuserve GIF, Version: GIF89a
+
+No.     Time           Source                Destination           Protocol Length Info
+    603 72.412007      99.236.34.223         192.168.40.83         TCP      66     50008 → 30267 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1460 SACK_PERM WS=128
+
+Frame 603: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30267, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    604 72.412007      99.236.34.223         192.168.40.83         TCP      66     50008 → 30268 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1460 SACK_PERM WS=128
+
+Frame 604: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30268, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    605 72.412188      192.168.40.83         99.236.34.223         TCP      54     30267 → 50008 [ACK] Seq=1 Ack=1 Win=131328 Len=0
+
+Frame 605: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30267, Dst Port: 50008, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    606 72.412236      192.168.40.83         99.236.34.223         TCP      54     30268 → 50008 [ACK] Seq=1 Ack=1 Win=131328 Len=0
+
+Frame 606: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30268, Dst Port: 50008, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    607 72.413079      192.168.40.83         99.236.34.223         HTTP     460    GET /icons/back.gif HTTP/1.1 
+
+Frame 607: 460 bytes on wire (3680 bits), 460 bytes captured (3680 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30268, Dst Port: 50008, Seq: 1, Ack: 1, Len: 406
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    608 72.413976      192.168.40.83         99.236.34.223         HTTP     462    GET /icons/image2.gif HTTP/1.1 
+
+Frame 608: 462 bytes on wire (3696 bits), 462 bytes captured (3696 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30267, Dst Port: 50008, Seq: 1, Ack: 1, Len: 408
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    609 72.458759      192.168.40.83         99.236.34.223         TCP      54     30266 → 50008 [ACK] Seq=856 Ack=1347 Win=130048 Len=0
+
+Frame 609: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30266, Dst Port: 50008, Seq: 856, Ack: 1347, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    611 72.625080      99.236.34.223         192.168.40.83         TCP      60     50008 → 30268 [ACK] Seq=1 Ack=407 Win=64128 Len=0
+
+Frame 611: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30268, Seq: 1, Ack: 407, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    612 72.625152      99.236.34.223         192.168.40.83         HTTP     554    HTTP/1.1 200 OK  (GIF89a)
+
+Frame 612: 554 bytes on wire (4432 bits), 554 bytes captured (4432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30268, Seq: 1, Ack: 407, Len: 500
+Hypertext Transfer Protocol
+Compuserve GIF, Version: GIF89a
+
+No.     Time           Source                Destination           Protocol Length Info
+    613 72.650484      99.236.34.223         192.168.40.83         TCP      60     50008 → 30267 [ACK] Seq=1 Ack=409 Win=64128 Len=0
+
+Frame 613: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30267, Seq: 1, Ack: 409, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    614 72.657201      99.236.34.223         192.168.40.83         HTTP     648    HTTP/1.1 200 OK  (GIF89a)
+
+Frame 614: 648 bytes on wire (5184 bits), 648 bytes captured (5184 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30267, Seq: 1, Ack: 409, Len: 594
+Hypertext Transfer Protocol
+Compuserve GIF, Version: GIF89a
+
+No.     Time           Source                Destination           Protocol Length Info
+    615 72.663777      192.168.40.83         99.236.34.223         HTTP     457    GET /favicon.ico HTTP/1.1 
+
+Frame 615: 457 bytes on wire (3656 bits), 457 bytes captured (3656 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30267, Dst Port: 50008, Seq: 409, Ack: 595, Len: 403
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    617 72.669633      192.168.40.83         99.236.34.223         TCP      54     30268 → 50008 [ACK] Seq=407 Ack=501 Win=130816 Len=0
+
+Frame 617: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30268, Dst Port: 50008, Seq: 407, Ack: 501, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    618 72.702529      99.236.34.223         192.168.40.83         HTTP     555    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 618: 555 bytes on wire (4440 bits), 555 bytes captured (4440 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30267, Seq: 595, Ack: 812, Len: 501
+Hypertext Transfer Protocol
+Line-based text data: text/html (9 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    619 72.745563      192.168.40.83         99.236.34.223         TCP      54     30267 → 50008 [ACK] Seq=812 Ack=1096 Win=130304 Len=0
+
+Frame 619: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30267, Dst Port: 50008, Seq: 812, Ack: 1096, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    653 77.405563      99.236.34.223         192.168.40.83         TCP      60     50008 → 30266 [FIN, ACK] Seq=1347 Ack=856 Win=64128 Len=0
+
+Frame 653: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30266, Seq: 1347, Ack: 856, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    654 77.405695      192.168.40.83         99.236.34.223         TCP      54     30266 → 50008 [ACK] Seq=856 Ack=1348 Win=130048 Len=0
+
+Frame 654: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30266, Dst Port: 50008, Seq: 856, Ack: 1348, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    658 77.579840      99.236.34.223         192.168.40.83         TCP      60     50008 → 30268 [FIN, ACK] Seq=501 Ack=407 Win=64128 Len=0
+
+Frame 658: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30268, Seq: 501, Ack: 407, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    659 77.579966      192.168.40.83         99.236.34.223         TCP      54     30268 → 50008 [ACK] Seq=407 Ack=502 Win=130816 Len=0
+
+Frame 659: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30268, Dst Port: 50008, Seq: 407, Ack: 502, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    664 77.702902      99.236.34.223         192.168.40.83         TCP      60     50008 → 30267 [FIN, ACK] Seq=1096 Ack=812 Win=64128 Len=0
+
+Frame 664: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30267, Seq: 1096, Ack: 812, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    665 77.703009      192.168.40.83         99.236.34.223         TCP      54     30267 → 50008 [ACK] Seq=812 Ack=1097 Win=130304 Len=0
+
+Frame 665: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30267, Dst Port: 50008, Seq: 812, Ack: 1097, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    668 78.040191      192.168.40.83         99.236.34.223         TCP      54     30266 → 50008 [FIN, ACK] Seq=856 Ack=1348 Win=130048 Len=0
+
+Frame 668: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30266, Dst Port: 50008, Seq: 856, Ack: 1348, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    669 78.040697      192.168.40.83         99.236.34.223         TCP      54     30268 → 50008 [FIN, ACK] Seq=407 Ack=502 Win=130816 Len=0
+
+Frame 669: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30268, Dst Port: 50008, Seq: 407, Ack: 502, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    670 78.040860      192.168.40.83         99.236.34.223         TCP      54     30267 → 50008 [FIN, ACK] Seq=812 Ack=1097 Win=130304 Len=0
+
+Frame 670: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30267, Dst Port: 50008, Seq: 812, Ack: 1097, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    671 78.041386      192.168.40.83         99.236.34.223         TCP      66     30271 → 50008 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 671: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    672 78.073679      99.236.34.223         192.168.40.83         TCP      60     50008 → 30268 [ACK] Seq=502 Ack=408 Win=64128 Len=0
+
+Frame 672: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30268, Seq: 502, Ack: 408, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    673 78.076446      99.236.34.223         192.168.40.83         TCP      60     50008 → 30266 [ACK] Seq=1348 Ack=857 Win=64128 Len=0
+
+Frame 673: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30266, Seq: 1348, Ack: 857, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    674 78.076737      99.236.34.223         192.168.40.83         TCP      60     50008 → 30267 [ACK] Seq=1097 Ack=813 Win=64128 Len=0
+
+Frame 674: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30267, Seq: 1097, Ack: 813, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    675 78.077135      99.236.34.223         192.168.40.83         TCP      66     50008 → 30271 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1460 SACK_PERM WS=128
+
+Frame 675: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    676 78.077330      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=1 Ack=1 Win=131328 Len=0
+
+Frame 676: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    677 78.078041      192.168.40.83         99.236.34.223         HTTP     560    GET /photos/6.jpeg HTTP/1.1 
+
+Frame 677: 560 bytes on wire (4480 bits), 560 bytes captured (4480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 1, Ack: 1, Len: 506
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    679 78.249822      99.236.34.223         192.168.40.83         TCP      60     50008 → 30271 [ACK] Seq=1 Ack=507 Win=64128 Len=0
+
+Frame 679: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 1, Ack: 507, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    680 78.254335      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=1 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 680: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 1, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    681 78.254648      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=1461 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 681: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 1461, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    682 78.254648      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=2921 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 682: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 2921, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    683 78.254648      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=4381 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 683: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 4381, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    684 78.254747      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=2921 Win=131328 Len=0
+
+Frame 684: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 2921, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    685 78.254798      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=5841 Win=131328 Len=0
+
+Frame 685: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 5841, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    686 78.256411      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=5841 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 686: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 5841, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    687 78.256793      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=7301 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 687: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 7301, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    688 78.256793      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=8761 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 688: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 8761, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    689 78.256934      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=8761 Win=131328 Len=0
+
+Frame 689: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 8761, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    690 78.257775      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=10221 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 690: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 10221, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    691 78.257869      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=11681 Win=131328 Len=0
+
+Frame 691: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 11681, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    692 78.258139      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=11681 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 692: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 11681, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    693 78.258801      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=13141 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 693: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 13141, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    694 78.258906      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=14601 Win=131328 Len=0
+
+Frame 694: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 14601, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    696 78.283935      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=14601 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 696: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 14601, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    697 78.284378      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=16061 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 697: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 16061, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    698 78.284378      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=17521 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 698: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 17521, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    699 78.284546      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=17521 Win=131328 Len=0
+
+Frame 699: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 17521, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    700 78.290033      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=18981 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 700: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 18981, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    701 78.290233      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=20441 Win=131328 Len=0
+
+Frame 701: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 20441, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    702 78.290379      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=20441 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 702: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 20441, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    703 78.290379      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=21901 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 703: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 21901, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    704 78.290700      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=23361 Win=131328 Len=0
+
+Frame 704: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 23361, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    705 78.290945      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=23361 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 705: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 23361, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    706 78.291891      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=24821 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 706: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 24821, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    707 78.291938      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=26281 Win=131328 Len=0
+
+Frame 707: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 26281, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    708 78.292837      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=26281 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 708: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 26281, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    709 78.293574      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=27741 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 709: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 27741, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    710 78.293574      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=29201 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 710: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 29201, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    711 78.293826      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=29201 Win=131328 Len=0
+
+Frame 711: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 29201, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    712 78.293977      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=30661 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 712: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 30661, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    713 78.294027      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=32121 Win=131328 Len=0
+
+Frame 713: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 32121, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    714 78.294224      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=32121 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 714: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 32121, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    715 78.295472      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=33581 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 715: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 33581, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    716 78.295578      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=35041 Win=131328 Len=0
+
+Frame 716: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 35041, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    717 78.296093      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=35041 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 717: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 35041, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    718 78.296604      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=36501 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 718: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 36501, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    719 78.296727      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=37961 Win=131328 Len=0
+
+Frame 719: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 37961, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    720 78.297040      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=37961 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 720: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 37961, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    721 78.297389      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=39421 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 721: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 39421, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    722 78.297495      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=40881 Win=131328 Len=0
+
+Frame 722: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 40881, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    723 78.298037      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [ACK] Seq=40881 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 723: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 40881, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    724 78.298291      99.236.34.223         192.168.40.83         TCP      1514   50008 → 30271 [PSH, ACK] Seq=42341 Ack=507 Win=64128 Len=1460 [TCP segment of a reassembled PDU]
+
+Frame 724: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 42341, Ack: 507, Len: 1460
+
+No.     Time           Source                Destination           Protocol Length Info
+    725 78.298423      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=43801 Win=131328 Len=0
+
+Frame 725: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 43801, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    726 78.310440      99.236.34.223         192.168.40.83         HTTP     471    HTTP/1.1 200 OK  (JPEG JFIF image)
+
+Frame 726: 471 bytes on wire (3768 bits), 471 bytes captured (3768 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 43801, Ack: 507, Len: 417
+[ [truncated]31 Reassembled TCP Segments (44217 bytes): #680(1460), #681(1460), #682(1460), #683(1460), #686(1460), #687(1460), #688(1460), #690(1460), #692(1460), #693(1460), #696(1460), #697(1460), #698(1460), #700(1460), #702(1460), #703]
+Hypertext Transfer Protocol
+JPEG File Interchange Format
+
+No.     Time           Source                Destination           Protocol Length Info
+    727 78.351163      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=44218 Win=130816 Len=0
+
+Frame 727: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 44218, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    734 83.256852      99.236.34.223         192.168.40.83         TCP      60     50008 → 30271 [FIN, ACK] Seq=44218 Ack=507 Win=64128 Len=0
+
+Frame 734: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 44218, Ack: 507, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    735 83.256987      192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [ACK] Seq=507 Ack=44219 Win=130816 Len=0
+
+Frame 735: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 44219, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1350 128.257709     192.168.40.83         99.236.34.223         TCP      55     [TCP Keep-Alive] 30271 → 50008 [ACK] Seq=506 Ack=44219 Win=130816 Len=1
+
+Frame 1350: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 506, Ack: 44219, Len: 1
+Data (1 byte)
+
+0000  00                                                .
+
+No.     Time           Source                Destination           Protocol Length Info
+   1351 128.290992     99.236.34.223         192.168.40.83         TCP      60     [TCP Keep-Alive ACK] 50008 → 30271 [ACK] Seq=44219 Ack=507 Win=64128 Len=0
+
+Frame 1351: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 44219, Ack: 507, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  12541 158.092840     192.168.40.83         99.236.34.223         TCP      54     30271 → 50008 [FIN, ACK] Seq=507 Ack=44219 Win=130816 Len=0
+
+Frame 12541: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb), Dst: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c)
+Internet Protocol Version 4, Src: 192.168.40.83, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 30271, Dst Port: 50008, Seq: 507, Ack: 44219, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  12566 158.125732     99.236.34.223         192.168.40.83         TCP      60     50008 → 30271 [RST] Seq=44219 Win=0 Len=0
+
+Frame 12566: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{B13180E2-8986-4B7C-B716-EF7842049215}, id 0
+Ethernet II, Src: SagemcomBroa_77:ca:7c (64:fd:96:77:ca:7c), Dst: RivetNetwork_c8:e4:cb (9c:b6:d0:c8:e4:cb)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.40.83
+Transmission Control Protocol, Src Port: 50008, Dst Port: 30271, Seq: 44219, Len: 0
