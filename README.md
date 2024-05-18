@@ -20,12 +20,12 @@ Network software tools
 Socket programming with C and Python
 Network message transmission
 IP multicast
-HTTP, CGI, and multimedia networking
-Quality of service
-Labs
-The laboratory sessions involve using Python socket programming to build:
+HTTP, CGI, and multimedia networking <br>
 
-An online chatting platform
+Labs <br>
+The laboratory sessions involve using Python socket programming to build: <br>
+
+An online chatting platform <br>
 A file-sharing platform
 -------------------------------------------------------------------------------------------------------------------------
 课程大纲
@@ -50,10 +50,10 @@ TCP
 用C和Python进行socket编程
 网络消息传输
 IP组播
-HTTP、CGI和多媒体网络
-服务质量
-实验
-实验课程包括使用Python套接字编程来构建：
+HTTP、CGI和多媒体网络 <br>
 
-一个在线聊天平台
+实验 <br>
+实验课程包括使用Python套接字编程来构建： <br>
+
+一个在线聊天平台 <br>
 一个文件共享平台
